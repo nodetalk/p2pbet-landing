@@ -3,37 +3,89 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
     <title>P2PBet Landing Page</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#documentation">Documentation</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
     <header>
-        <h1>Welcome to P2PBet</h1>
-        <p>The future of betting is here.</p>
-        <a href="#cta" class="btn">Get Started</a>
+        <section class="hero">
+            <h1>The Open P2P Prediction Market</h1>
+            <p>From complex markets to simple predictions</p>
+        </section>
     </header>
-    <section id="what-is-p2pbet">
-        <h2>What is P2PBet?</h2>
-        <p>P2PBet is a decentralized platform that allows users to make predictions on various outcomes, from financial trends to sports events.</p>
-    </section>
-    <section id="predict-anything">
-        <h2>Predict Anything</h2>
-        <p>Engage in the excitement of predicting outcomes in finance and sports.</p>
-    </section>
-    <section id="how-it-works">
-        <h2>How It Works</h2>
-        <p>Creator vs Player Roles: Understand the dynamics of how users interact on our platform.</p>
-    </section>
-    <section id="why-its-different">
-        <h2>Why P2PBet is Different</h2>
-        <p>Explore the unique features that set P2PBet apart from traditional betting platforms.</p>
-    </section>
-    <section id="cta">
-        <h2>Join Us Today!</h2>
-        <a href="#" class="btn">Start Predicting</a>
-    </section>
+
+    <main>
+        <section id="about">
+            <h2>What is P2PBet?</h2>
+            <ul>
+                <li><strong>Peer-to-Peer Betting:</strong> Direct betting between users.</li>
+                <li><strong>User-Controlled Odds:</strong> Set your own odds.</li>
+                <li><strong>No House Edge:</strong> 100% of bets go to players.</li>
+            </ul>
+        </section>
+
+        <section id="markets">
+            <h2>Predict Anything</h2>
+            <h3>Finance</h3>
+            <p>Markets on crypto, volatility, and custom deals.</p>
+            <h3>Sports</h3>
+            <p>Markets on match winners, totals, and tournaments.</p>
+        </section>
+
+        <section id="how-it-works">
+            <h2>How It Works</h2>
+            <div class="creator">
+                <h3>Creator</h3>
+                <ol>
+                    <li>Define the market.</li>
+                    <li>Set the odds.</li>
+                    <li>Manage the bets.</li>
+                    <li>Close the market.</li>
+                </ol>
+            </div>
+            <div class="player">
+                <h3>Player</h3>
+                <ol>
+                    <li>Select a market.</li>
+                    <li>Place a bet.</li>
+                    <li>Monitor outcomes.</li>
+                    <li>Collect winnings.</li>
+                </ol>
+            </div>
+            <p><strong>Key Mechanics:</strong></p>
+            <p>Transparency and real-time updates on market conditions.</p>
+        </section>
+
+        <section id="why-different">
+            <h2>Why Different?</h2>
+            <ul>
+                <li>No house edge means higher payouts.</li>
+                <li>Empowerment through user-controlled odds.</li>
+                <li>Accessibility for everyone.</li>
+                <li>A broad range of markets.</li>
+            </ul>
+        </section>
+
+        <section id="cta">
+            <h2>Creator vs Player</h2>
+            <button onclick="location.href='#'">Join as Creator</button>
+            <button onclick="location.href='#'">Join as Player</button>
+        </section>
+    </main>
+
     <footer>
-        <p>&copy; 2026 P2PBet. All rights reserved.</p>
+        <ul>
+            <li><a href="#documentation">Documentation</a></li>
+            <li><a href="#">Homepage</a></li>
+        </ul>
     </footer>
 </body>
 </html>
